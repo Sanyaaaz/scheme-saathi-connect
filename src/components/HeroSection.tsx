@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <section className="relative bg-gradient-to-br from-gov-blue to-gov-blue-dark text-white overflow-hidden">
       {/* Background pattern */}
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0aDR2MWgtNHYtMXptMC0yaDF2NWgtMXYtNXptMi0yaDF2MWgtMXYtMXptLTIgMmgydjFoLTJ2LTF6bS0yLTJoMXYxaC0xdi0xem0tMiAyaDF2MWgtMXYtMXptMTYtMTBoMXYxaC0xdi0xem0tOCAwaDF2MWgtMXYtMXptNCAwaDF2MWgtMXYtMXptLTggMGgxdjFoLTF2LTF6bS00IDRoMXYxaC0xdi0xem0wLTRoMXYxaC0xVjEyem0yMCAwdjFoMXYxaC0xdjEyaDF2MWgtMXYxaC0xdjFoLTF2MWgtMXYxaC0xdjFoLTF2MWgtMXYxaC0xdjFoLTF2MWgtMXYxaC0xdjFoLTF2MWgtMXYxSDl2MWgtMXYxSDd2MUg2di0xSDV2LTFINHYtMUgzdi0xSDJ2LTFIMXYtMUgwVjBoMXYxaDJ2MWgxdjFoMXYxaDJ2MWgxdjFoMXYxaDJ2MWgxdjFoMXYxaDJ2MWgxdjFoMXYxaDJ2MWgxdjFoMXYxaDJ2MWgxdjFoMXYxaDJ2MWgxdjFoMXYxaDJ2MWgxdjFIMTV2LTFoLTF2LTFoLTF2LTFoLTF2LTFoLTF2LTFoLTF2LTFoLTF2LTFoLTF2LTFoLTF2LTFoLTF2LTFoLTF2LTFoLTF2LTFoLTF2LTFoLTF2LTFoLTF2LTFINHYtMUgzdi0xSDJ2LTFIMVYyaDF2MWgxdjFoMXYxaDF2MWgxdjFoMXYxaDF2MWgxdjFoMXYxaDF2MWgxdjFoMXYxaDF2MWgxdjFoMXYxaDF2MWgxdjFoMXYxaDF2MWgxdjFoMXYxaDF2LTFoMXYtMWgxdi0xaDF2LTFoMXYtMWgxdi0xaDF2LTFoMXYtMWgxdi0xaDF2LTFoMXYtMWgxdi0xaDF2LTFoMXYtMWgxdi0xaDF2LTFoMXYtMWgxdi0xaDF2LTFoMXYtMWgxdi0xWiIvPjwvZz48L2c+PC9zdmc+')]" />
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0aDR2MWgtNHYtMXptMC0yaDF2NWgtMXYtNXptMi0yaDF2MWgtMXYtMXptLTIgMmgydjFoLTJ2LTF6bS0yLTJoMXYxaC0xdi0xem0tMiAyaDF2MWgtMXYtMXptMTYtMTBoMXYxaC0xdi0xem0tOCAwaDF2MWgtMXYtMXptNCAwaDF2MWgtMXYtMXptLTggMGgxdjFoLTF2LTF6bS00IDRoMXYxaC0xdi0xem0wLTRoMXYxaC0xVjEyem0yMCAwdjFoMXYxaC0xdjEyaDF2MWgtMXYxaC0xdjFoLTF2MWgtMXYxaC0xdjFoLTF2MWgtMXYxaC0xdjFoLTF2MWgtMXYxaC0xdjFoLTF2MUg5djFoLTF2MUg3djFINnYtMUg1di0xSDR2LTFIM3YtMUgydi0xSDF2LTFIMFYwaDF2MWgydjFoMXYxaDF2MWgydjFoMXYxaDF2MWgydjFoMXYxaDF2MWgydjFoMXYxaDF2MWgydjFoMXYxaDF2MWgydjFoMXYxaDF2MWgydjFoMXYxaDF2MWgydjFoMXYxSDE1di0xaC0xdi0xaC0xdi0xaC0xdi0xaC0xdi0xaC0xdi0xaC0xdi0xaC0xdi0xaC0xdi0xaC0xdi0xaC0xdi0xaC0xdi0xaC0xdi0xaC0xdi0xaC0xdi0xSDR2LTFIM3YtMUgydi0xSDFWMmgxdjFoMXYxaDF2MWgxdjFoMXYxaDF2MWgxdjFoMXYxaDF2MWgxdjFoMXYxaDF2MWgxdjFoMXYxaDF2MWgxdjFoMXYxaDF2MWgxdjFoMXYxaDF2MWgxdi0xaDF2LTFoMXYtMWgxdi0xaDF2LTFoMXYtMWgxdi0xaDF2LTFoMXYtMWgxdi0xaDF2LTFoMXYtMWgxdi0xaDF2LTFoMXYtMWgxdi0xaDF2LTFoMXYtMWgxdi0xaDF2LTFaIi8+PC9nPjwvZz48L3N2Zz4=')]" />
       
       <div className="container-custom py-20 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -54,19 +54,19 @@ export default function HeroSection() {
                     <div className="grid grid-cols-2 gap-2 mt-2 text-sm">
                       <div>
                         <span className="text-gray-500">Gender:</span>
-                        <span className="ml-2 font-medium">Female</span>
+                        <span className="ml-2 font-medium">Male</span>
                       </div>
                       <div>
                         <span className="text-gray-500">Age:</span>
-                        <span className="ml-2 font-medium">32 yrs</span>
+                        <span className="ml-2 font-medium">24 yrs</span>
                       </div>
                       <div>
                         <span className="text-gray-500">State:</span>
-                        <span className="ml-2 font-medium">Maharashtra</span>
+                        <span className="ml-2 font-medium">Karnataka</span>
                       </div>
                       <div>
                         <span className="text-gray-500">Occupation:</span>
-                        <span className="ml-2 font-medium">Self-employed</span>
+                        <span className="ml-2 font-medium">Student</span>
                       </div>
                     </div>
                   </div>
@@ -76,15 +76,15 @@ export default function HeroSection() {
                     <ul className="mt-2 space-y-2">
                       <li className="bg-green-50 p-2 rounded text-sm flex items-center">
                         <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                        Stand-Up India
+                        PM Vidya Lakshmi Scheme
                       </li>
                       <li className="bg-green-50 p-2 rounded text-sm flex items-center">
                         <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                        PM SVANidhi Scheme
+                        National Scholarship Portal
                       </li>
                       <li className="bg-green-50 p-2 rounded text-sm flex items-center">
                         <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                        Pradhan Mantri Mudra Yojana
+                        Skill India Mission
                       </li>
                     </ul>
                   </div>
