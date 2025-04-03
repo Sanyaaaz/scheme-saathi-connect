@@ -41,7 +41,7 @@ const mockOpenAIResponse = async (messages: Message[], userProfile: UserProfile)
   // Basic logic for scheme recommendations based on user profile
   if (userProfile.state === 'Gujarat') {
     schemes.push({
-      name: 'Chief Minister's Apprenticeship Scheme',
+      name: "Chief Minister's Apprenticeship Scheme",
       description: 'Provides apprenticeship opportunities to youth with a monthly stipend of INR 3,000.',
       eligibility: 'Age: 18-35 years, Residents of Gujarat',
       link: 'https://apprentice.gujarat.gov.in/'
