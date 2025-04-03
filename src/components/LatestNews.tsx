@@ -2,6 +2,7 @@
 import React from 'react';
 import { Calendar, ChevronRight, Clock } from 'lucide-react';
 import { Button } from "@/components/ui/button";
+import { Link } from 'react-router-dom';
 
 const newsItems = [
   {
@@ -39,8 +40,10 @@ export default function LatestNews() {
       <div className="container-custom">
         <div className="flex justify-between items-center mb-10">
           <h2 className="text-3xl font-bold text-gray-900">Latest News & Updates</h2>
-          <Button variant="outline" className="outlined-btn flex items-center">
-            View All <ChevronRight className="ml-1 h-4 w-4" />
+          <Button variant="outline" className="outlined-btn flex items-center" asChild>
+            <Link to="/news">
+              View All <ChevronRight className="ml-1 h-4 w-4" />
+            </Link>
           </Button>
         </div>
         
@@ -74,8 +77,10 @@ export default function LatestNews() {
                 <p className="text-gray-600 mb-4">
                   {item.excerpt}
                 </p>
-                <Button variant="link" className="p-0 text-gov-blue hover:text-gov-blue-light flex items-center">
-                  Read More <ChevronRight className="ml-1 h-4 w-4" />
+                <Button variant="link" className="p-0 text-gov-blue hover:text-gov-blue-light flex items-center" asChild>
+                  <Link to="/news">
+                    Read More <ChevronRight className="ml-1 h-4 w-4" />
+                  </Link>
                 </Button>
               </div>
             </div>
