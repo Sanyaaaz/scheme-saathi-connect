@@ -180,12 +180,12 @@ export default function SchemeCategory() {
           />
         </div>
         <div className="w-full md:w-64">
-          <Select value={filterMinistry || ""} onValueChange={(value) => setFilterMinistry(value || null)}>
+          <Select value={filterMinistry || undefined} onValueChange={(value) => setFilterMinistry(value || null)}>
             <SelectTrigger>
               <SelectValue placeholder="Filter by Ministry" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">All Ministries</SelectItem>
+              <SelectItem value="all-ministries">All Ministries</SelectItem>
               {ministries.map((ministry) => (
                 <SelectItem key={ministry} value={ministry}>{ministry}</SelectItem>
               ))}
@@ -261,3 +261,4 @@ export default function SchemeCategory() {
     </div>
   );
 }
+
