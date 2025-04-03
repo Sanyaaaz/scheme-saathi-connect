@@ -73,9 +73,23 @@ export default function Header() {
             <Link to="/" className="block px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gov-blue rounded-md">
               Home
             </Link>
-            <Link to="/schemes" className="block px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gov-blue rounded-md">
+            <div className="block px-3 py-2 text-gray-700">
               Schemes
-            </Link>
+              <div className="ml-4 mt-2 space-y-1">
+                <Link to="/schemes/education" className="block py-1 text-gray-600 hover:text-gov-blue">
+                  Education
+                </Link>
+                <Link to="/schemes/health" className="block py-1 text-gray-600 hover:text-gov-blue">
+                  Health
+                </Link>
+                <Link to="/schemes/agriculture" className="block py-1 text-gray-600 hover:text-gov-blue">
+                  Agriculture
+                </Link>
+                <Link to="/schemes/employment" className="block py-1 text-gray-600 hover:text-gov-blue">
+                  Employment
+                </Link>
+              </div>
+            </div>
             <Link to="/news" className="block px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gov-blue rounded-md">
               News
             </Link>
